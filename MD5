@@ -1,7 +1,9 @@
-6cdcfc859c190fbcbf227ba1ead04ebf *DESCRIPTION
-54a9257b79493fc16e2a7b56dadb8d42 *NAMESPACE
+8f1a4dc7f96e3b944e0109699c7d6e6a *DESCRIPTION
+7988c69c5ad2abfaea7724ecba7404a1 *NAMESPACE
+22e4db325219b90f735c6cc7d5276353 *NEWS.md
 7dac9648a48c5e277b96c0d69623785e *R/add_cran_binary_pkgs.R
-c8f881a641d289a1ec8e7fa97a36da4c *R/check_prerequisites.R
+1157b1f3de2cd23fa87821cbbad42271 *R/check_prerequisites.R
+82bcb80be6384d70a0b3ed5b15bdc99f *R/check_version.R
 c159c346850b43853f57b9197e859228 *R/detect_system.R
 b6bd1d90f00c03971c75b321873ee041 *R/download_file.R
 7658c36281b31969b21028ed02cce0b6 *R/edit_file.R
@@ -10,12 +12,12 @@ eecc05bfe1c325f88164ad9eead12154 *R/get-r-mac.R
 ac1cb83ed78cd385edf0ecc48907c7ae *R/get-r-windows.R
 ae90f6dca6934143ac549978c662afc8 *R/inst_to_shiny.R
 df321018a57f6f14b32a1fc3ab8e87f7 *R/move_to_new_folder.R
-8a945ed8040c42d3267f90a5208b5e4a *R/pack.R
-bee97646bf059ba40f644d75eadf6fb2 *R/prepare_electron.R
+0ed6c12e8d30ddf433090c8dbdf88008 *R/pack.R
+66de5378c3a298a4ee2ae9ed4f261b7a *R/prepare_electron.R
 2dc8d9187bce382e814fc5cd244ba999 *R/setenv.R
-42626da0cfc344e00fdaecbbfb33be7e *README.md
+d5f86e670fdf4999ebf4889805852b16 *README.md
 527c3dadb1b7c36b2028de874347b3e7 *inst/add-cran-binary-pkgs.R
-d08a6b0823a68877654241e28d9945fa *inst/forge.config.js
+0ee469139292559a246e937bf2dbf466 *inst/forge.config.js
 fc20ac0c01c2092413968959fdb30d55 *inst/get-r-mac.sh
 950a7fbbb85db2b163e6966048384051 *inst/get-r-windows.sh
 cf5c90e392cfafba75c55761ca58d8e1 *inst/package.json
@@ -26,4 +28,4 @@ df18c438cf7998a3bce0bf521d2fc028 *inst/src/index.js
 64d8609bbf5d07dbba5435b2999f4475 *inst/src/loading.html
 0e1839f64f9507dccc9c53eec652618d *inst/src/main.js
 e1a5d1dbb6d39946d92c18b2e6b86cc1 *inst/start-shiny.R
-02b32aac26b9725785111968ae604e7b *man/pack.Rd
+ad60f20fb2849e5a344a2ec77d84a335 *man/pack.Rd

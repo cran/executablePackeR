@@ -18,8 +18,12 @@ Run
 
 ```
 remotes::install_github("ChangwooLim/executablePackeR")
+```
+
 or
-~~install.packages("executablePackeR")~~ Will be available soon.
+
+```
+install.packages("executablePackeR")
 ```
 
 ## Before start
@@ -32,11 +36,47 @@ Packages used in your application not available at CRAN should be installed at y
 
 ## Options
 
-See option_description.md for more information.
+### Icons
+
+You can apply your custom icons. However, some limitations apply.
+
+1. Make assets/icon folder on the level of your directory. For example, if your "app.R" is located at /User/yourdirectory/app.R, there should be /User/yourdirectory/assets/icon folder.
+
+2. Put your icon at icon folder, with named icon.ico (for Windows) or icon.icns (for macOS).
+
+**Please note that icon files with another extensions(i. e. png) may not work.**
+
+For more information, please refer to [electron documents](https://www.electronforge.io/guides/create-and-add-icons).
+
+See option_description.md for more information.(Not yet prepared)
 
 ## Troubleshooting
 
-Use Issue tab for reporting issues and requesting features.
+- Executable built successfully, but infinite loading after running.
+
+-> Run `executablePackeR::pack(option=list(is_dev=TRUE))`
+-> with is_dev option, processed file will not be deleted, and tempdir path will be printed at last.
+-> Open terminal, run `cd <tempdir path printed at your cosole>` 
+-> Run `electron-forge start` and see what is the problem.
+
+For another issues not described above, use Issue tab for reporting issues and requesting features.
+
+When you stuck at after "Installing R Complete" and see warning(or error) "Could not parse R code in",
+Run 
+
+```
+Sys.setlocale(category = 'LC_ALL' , locale = '')
+```
+
+or
+
+```
+Sys.setlocale(category = 'LC_ALL' , locale = 'en_US.UTF-8')
+```
+
+at your R Console.
+
+It might be a encoding problem, and may occurs at Windows Server Environment.
 
 ## Credit
 
